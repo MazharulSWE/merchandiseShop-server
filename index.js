@@ -198,3 +198,9 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`wellness is running on http://localhost:${port}/`);
 });
+
+
+
+// DB_USER=doctorDB
+//     DB_PASS=jMA5DVgg92nF07sM
+
