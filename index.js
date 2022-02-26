@@ -95,8 +95,9 @@ const server = async () => {
             if (user?.role === 'admin') {
                 Admin = "admin";
             };
-            res.json({ role: Admin,_id:user._id,email:user.email,name:user.name});
-           
+            // res.json({ role: Admin, _id:user._id, email:user.email, name:user.name}); 
+            // console.log(user);  
+            res.json({ role: Admin, ...user}); 
     });
   //
     // add a review
@@ -180,7 +181,7 @@ const server = async () => {
     });
 
     //
-    console.log("Light Wars database is connected");
+    console.log("wellness database is connected");
   } finally {
     // await client.close();
   }
@@ -189,11 +190,11 @@ server().catch(console.dir);
 
 // getting server
 app.get("/", (req, res) => {
-  console.log("Light Wars's Server is running on", port);
-  res.send("Welcome to Light Wars server!");
+  console.log("Wellness Server is running on", port);
+  res.send("Welcome to wellness Server server!");
 });
 
 // running server on port
 app.listen(port, () => {
-  console.log(`Light Wars is running on http://localhost:${port}/`);
+  console.log(`wellness is running on http://localhost:${port}/`);
 });

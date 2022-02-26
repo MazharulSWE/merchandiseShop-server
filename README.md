@@ -1,10 +1,7 @@
-# niche-website-server-side-mehedisarkar2k
 
-## Welcome to Lightwars server
+## Welcome to Wellness merchandise shop server
 
-## See the Server [Light Wars Server](https://light-wars.herokuapp.com/).
-
-## See the main website [Light Wars](https://lightwars-mhs.web.app/).
+## See the main website [Wellness Merchandise Shop](https://lightwars-mhs.web.app/).
 
 ### About the server
 
@@ -21,8 +18,7 @@
 > - Dashboard have two section. One for normal user ad another for admin.
 > - Dashboard has different functionality for normal user and admin.
 > - You can manage order, manage product also.
-> - This is a niche website mainly focused on Sunglasses.
-> - This app contains different information for the for the hospital <em><strong>Light Ware</strong></em>.
+> - This app contains different information for the for the Shopping <em><strong>Wellness merchandise Shop</strong></em>.
 > - I have used font-awesome for icons. And also used tailwind for responsiveness and design.
 > - I have used react-router-dom to make this single page website.
 > - All the data loaded from mongodb and loaded with server
